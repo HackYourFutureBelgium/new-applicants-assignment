@@ -55,6 +55,7 @@ Use **HTML** to create the basic structure of your portfolio. Be sure to follow 
 ## Steps to Complete
 
 1. **Set Up CodePen**:
+    - [How to use CodePen](https://www.youtube.com/watch?v=vb9uYBtqmeM)
     - Go to [CodePen](https://codepen.io/).
     - Create a new pen for your portfolio project.
 2. **Write HTML**:
