@@ -1,174 +1,76 @@
-# New Applicants Assignment: a Personal Portfolio
+# Portfolio Reverse Engineering Task
 
 ## Overview
 
-Welcome to HYF-BE and to your first web development assignment! Your task is to build a **personal portfolio** using only **HTML** and **CSS**. This assignment will help you practice the essential skills needed for web development while showcasing your creativity.
+Welcome to HYF-BE! Your first assignment is to **reverse engineer** and rebuild a personal **portfolio website** using only **HTML** and **CSS**. This exercise will challenge your ability to understand the structure of a webpage and recreate it from scratch while showcasing your creativity.
 
 ### What is a Portfolio?
 
-A **portfolio** is a collection of your work that represents your skills, achievements, and experiences. In the context of web development, a portfolio allows you to display your projects, introduce yourself to potential employers or clients, and demonstrate your proficiency in front-end technologies like HTML and CSS. A well-structured portfolio is key to building a strong online presence.
+A **portfolio** is a personalized website that highlights your skills, projects, and experience. It’s a crucial tool for web developers to demonstrate their expertise and creativity to potential employers or clients. In this assignment, you’ll rebuild an example portfolio to hone your HTML and CSS skills.
 
-[Portfolio Example:](https://mileenka.github.io/Portfolio/index.html#about)
+Here’s the portfolio you will reverse-engineer: [Portfolio](https://mileenka.github.io/Portfolio/index.html#about).
 
 ---
 
-## Assignment Goals
+## Assignment Objectives
 
-- **Build a simple, responsive portfolio** using only HTML and CSS.
-- Use **CodePen** to write, preview, and share your code.
-- Practice using semantic HTML tags and properly naming CSS classes or IDs.
-- Gain experience designing layouts, applying styles, and organizing content.
+- **Rebuild the provided portfolio** from scratch using only HTML and CSS.
+- Utilize **CodePen** for writing and previewing your code.
+- Practice using semantic HTML, structuring your code well, and applying effective CSS styles.
+- Develop skills to create a professional, visually appealing portfolio.
 
 ---
 
 ## Requirements
 
-### 1. **HTML: Structure Your Portfolio**
+### 1. **HTML: Structure Your Page**
 
-Use **HTML** to create the basic structure of your portfolio. Be sure to follow these guidelines:
+Use HTML to lay out the core sections of your portfolio. Follow these guidelines:
 
-- **Correct Tags**: Make sure to use the appropriate HTML tags for different sections of the page.
-  - Example tags: `<header>`, `<nav>`, `<section>`, `<footer>`, `<ul>`, `<img>`, `<a>`, `<div>`.
-- **Semantic Tags**: Use semantic HTML tags to give meaning to your content. This improves accessibility and SEO.
-  - Use semantic elements like `<header>`, `<main>`, `<article>`, `<section>`, and `<footer>` instead of generic `<div>` elements where applicable.
+- **Semantic HTML**: Ensure you're using appropriate and semantic tags such as `<header>`, `<nav>`, `<section>`, `<footer>`, `<ul>`, `<img>`, and `<a>`. This improves both accessibility and SEO.
+  - Example elements: `<header>`, `<main>`, `<article>`, `<section>`, `<footer>` instead of generic `<div>` tags.
+  
+- **Content Sections**:
+  - **Header**: Include your name and navigation links.
+  - **About Me**: A brief introduction about yourself.
+  - **Projects**: Showcase at least 2-3 of your past projects with descriptions and links (optional).
+  - **Contact Information**: A section with your contact details such as email or social media.
 
-- **Content**: Include at least the following sections in your portfolio:
-  - **Header**: Your name and navigation links.
-  - **About Me**: A short introduction about who you are.
-  - **Projects**: Showcase at least 2-3 projects with brief descriptions, images (if any), and links (optional).
-  - **Contact Information**: A section with your contact details (e.g., email, phone number, or social media links).
+### 2. **CSS: Style Your Page**
 
-### 2. **CSS: Style Your Portfolio**
+Apply CSS to make the portfolio visually engaging and easy to navigate.
 
-- Use **CSS** to style your portfolio and make it visually appealing.
-- **Naming Classes and IDs**: Make sure to properly name your classes and IDs for easy readability and maintenance.
-  - Use meaningful names for classes and IDs that reflect their purpose, such as `.navbar`, `.portfolio-section`, `.about-me`, `.contact-info`, etc.
-
-- **CSS Best Practices**:
-  - Apply consistent styling for fonts, colors, and layouts.
-  - Use `margin`, `padding`, and `box-sizing` to create proper spacing.
-  - Add hover effects for buttons and links to enhance the user experience.
-  - Responsive Design: Use media queries to ensure your portfolio looks good on different screen sizes (optional, but encouraged).
+- **Class and ID Naming**: Use meaningful and descriptive names for your CSS classes and IDs (e.g., `.navbar`, `.projects-section`, `.contact-info`).
+- **Design & Layout**:
+  - Implement consistent styles for colors, fonts, and layouts.
+  - Use spacing techniques such as `margin`, `padding`, and `box-sizing`.
+  - Add simple hover effects for buttons and links to enhance user interaction.
+- **Responsive Design**: (Optional but encouraged) Use media queries to ensure the portfolio looks good on various screen sizes.
 
 ---
 
 ## Steps to Complete
 
 1. **Set Up CodePen**:
-    - [How to use CodePen](https://www.youtube.com/watch?v=vb9uYBtqmeM)
-    - Go to [CodePen](https://codepen.io/).
-    - Create a new pen for your portfolio project.
-2. **Write HTML**:
-    - Start by structuring the page using the correct HTML tags.
-    - Add the content for each section (Header, About Me, Projects, Contact Information).
-3. **Add CSS**:
-    - Style your portfolio by adding custom CSS in the CSS panel.
-    - Remember to name your classes and IDs meaningfully.
-4. **Test Your Portfolio**:
-    - Make sure everything works and looks good in the CodePen preview.
-5. **Share Your Project**:
-    - Once you're happy with the result, copy the **URL** of your CodePen project and share it.
+    - Watch this guide on how to use CodePen: [Video Tutorial](https://www.youtube.com/watch?v=vb9uYBtqmeM).
+    - Create a new Pen for your project at [CodePen](https://codepen.io/).
+2. **Build the HTML**:
+    - Structure your portfolio using HTML.
+    - Divide the content into the key sections (Header, About Me, Projects, Contact Information).
+3. **Style with CSS**:
+    - Add CSS to give your portfolio a polished look.
+    - Use clear, readable class and ID names for easy navigation and maintainability.
+4. **Test & Iterate**:
+    - Ensure your portfolio works and looks good by previewing it in CodePen.
+5. **Submit**:
+    - Share the **URL** to your CodePen project once complete.
 
 ---
 
-## Example Code Structure
+## Submission Instructions
 
-```html
-<!-- HTML Structure Example -->
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- Header  -->
-    <header>
-        <h1>Your Name</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
- <!-- Main  -->
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Write a brief introduction about yourself here.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Your Name</p>
-    </footer>
-  </body>
-</html>
-```
-
-```css
-/* CSS Example */
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-header {
-  background-color: #333;
-  color: white;
-  padding: 1rem;
-  text-align: center;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-section {
-  padding: 2rem;
-  margin: 2rem 0;
-}
-
-#about {
-  background-color: #f4f4f4;
-  border-radius: 5px;
-  padding: 1.5rem;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #333;
-  color: white;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
-```
+Once you're finished, submit your **CodePen URL**. Ensure your portfolio is set to public so we can review it.
 
 ---
 
-## Submission
-
-Once you've completed your portfolio, share the **URL** of your CodePen project with us. Make sure that your portfolio is publicly accessible so it can be reviewed.
-
----
-
-### Happy Coding! 🎉
+### Good Luck and Happy Coding! 🎉
